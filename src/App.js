@@ -14,6 +14,7 @@ function App() {
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
   const [pageCount, setPageCount] = useState();
 
+  console.log(loading);
   useEffect(() => {
     async function fetchData() {
       let response = await getAllPokemon(initialURL);
