@@ -60,10 +60,10 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="hamburger-menu">
-            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
-            </a>
+ <div className="hamburger-menu">
+            <GiHamburgerMenu
+              onClick={() => setShowMediaIcons(!showMediaIcons)}
+            />
           </div>
         </div>
       </nav>
